@@ -13,8 +13,10 @@ response.then((v)=>{
          
          <div class="card-body">
            <h5 class="card-tittle">${contests[item].name}.</h5>
-           <p> ${contests[item].start_time}</p>
-           <p> ${contests[item].end_time}</p>
+           <p> Start time :${contests[item].start_time}</p>
+           <p> End time : ${contests[item].end_time}</p>
+           <p> Site: ${contests[item].site}</p>
+           <p> Status : ${contests[item].status}</p>
            <a href="${contests[item].url}  " class="btn btn-primary">Go to the Site</a>
           
          </div>

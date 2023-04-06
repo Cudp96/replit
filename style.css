@@ -5,6 +5,7 @@ html {
 }
 
 #cardContainer{
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   gap: 2;
