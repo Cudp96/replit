@@ -9,7 +9,7 @@ response.then((v)=>{
   for (item in contests){
     console.log(contests[item])
     ihtml += `
-         <div class="card d-flex" style="width: 18rem;">
+         <div class="card color" style="width: 18rem;">
          
          <div class="card-body">
            <h5 class="card-tittle">${contests[item].name}.</h5>
