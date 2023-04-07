@@ -1,14 +1,57 @@
-html {
-  height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Josefin+Sans:ital@1&display=swap');
+body {
+  height: 100vh;
   width: 100%;
+  background: linear-gradient( to right top, lightpink, lightblue, lightgreen);
+  
   
 }
-
-#cardContainer{
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 2;
-  justify-content: center;
+h2{
+  text-align:center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.conatainer{
+  margin-top: 25px;
   
+}
+form{
+    font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+#list{
+  border:2px solid transparent;
+  margin: auto;
+  width:80%;
+  height:70vh;
+  border-radius: 25px;
+  box-shadow: 0px 15px 15px rgb(0, 0, 0,0.5);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.4);
+}
+ input{
+      display: flexbox;
+      align-items: center;
+      justify-self: initial;
+      padding: 6px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.4);
+      outline: none;
+      border: hidden;
+ }
+input:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+
+#myUL{
+  list-style-type: decimal;
+    font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  padding:25px
+  
+}
+#myUL li{
+  margin-left:15px;
+  font-size: 24px;
 }
